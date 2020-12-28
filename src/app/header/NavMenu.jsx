@@ -3,7 +3,7 @@ import React, { useContext } from "react"
 import NavList from "app/header/NavList"
 
 import { AppContext } from "app/context/AppContext"
-import { hideMenu } from "app/context/app.action"
+import { hideMenu } from "app/context/app.actions"
 
 const NavMenu = () => {
   const {

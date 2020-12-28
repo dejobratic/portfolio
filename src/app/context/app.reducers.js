@@ -1,4 +1,4 @@
-import { appAction } from "app/context/app.action"
+import { appAction } from "app/context/app.actions"
 
 export const INITIAL_STATE = {
   menuVisible: false,

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import NavMenu from "app/header/NavMenu"
 
 import { AppContext } from "app/context/AppContext"
-import { showMenu } from "app/context/app.action"
+import { showMenu } from "app/context/app.actions"
 
 import "app/header/header.css"
 
