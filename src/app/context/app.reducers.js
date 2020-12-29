@@ -5,7 +5,6 @@ export const INITIAL_STATE = {
 }
 
 const appReducer = (state = INITIAL_STATE, action) => {
-  console.log(action)
   switch (action.type) {
     case appAction.SHOW_MENU:
       return { ...state, menuVisible: true }
