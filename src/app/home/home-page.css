@@ -14,8 +14,9 @@
 }
 
 .home__img {
-  padding-top: 1.3rem;
-  padding-left: 0.8rem;
+  justify-content: center;
+  /* padding-top: 1.3rem;
+  padding-left: 0.8rem; */
   width: 160px;
   height: 160px;
   background-color: var(--first-color);
@@ -25,7 +26,8 @@
 }
 
 .home__img img {
-  width: 155px;
+  /* width: 155px; */
+  width: 100%;
 }
 
 .home__name {

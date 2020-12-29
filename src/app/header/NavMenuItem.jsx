@@ -4,9 +4,7 @@ import { Link } from "react-router-dom"
 import { AppContext } from "app/context/AppContext"
 import { hideMenu } from "app/context/app.actions"
 
-import "app/header/header.css"
-
-const NavListItem = ({ to, title, active = false }) => {
+const NavMenuItem = ({ to, title, active = false }) => {
   const { dispatch } = useContext(AppContext)
 
   return (
@@ -22,4 +20,4 @@ const NavListItem = ({ to, title, active = false }) => {
   )
 }
 
-export default NavListItem
+export default NavMenuItem

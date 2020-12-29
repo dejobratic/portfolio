@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 
-import NavList from "app/header/NavList"
+import NavMenuItem from "app/header/NavMenuItem"
 
 import { AppContext } from "app/context/AppContext"
 import { hideMenu } from "app/context/app.actions"
@@ -17,7 +17,14 @@ const NavMenu = () => {
         <i className="bx bx-x"></i>
       </div>
 
-      <NavList />
+      <ul className="nav__list">
+        <NavMenuItem to="/" title="Home" active />
+        <NavMenuItem to="#about" title="About" />
+        <NavMenuItem to="#skills" title="Skills" />
+        <NavMenuItem to="#services" title="Services" />
+        <NavMenuItem to="#works" title="Works" />
+        <NavMenuItem to="#contact" title="Contact Me" />
+      </ul>
     </div>
   )
 }

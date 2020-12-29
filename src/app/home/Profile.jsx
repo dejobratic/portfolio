@@ -5,7 +5,10 @@ import SocialNetwork from "app/home/SocialNetwork"
 
 const ProfileImage = () => (
   <div className="home__img">
-    <img src="" alt="" />
+    <img
+      src="https://images.unsplash.com/photo-1609172772815-fd717cd9761f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      alt=""
+    />
   </div>
 )
 

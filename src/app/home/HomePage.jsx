@@ -6,7 +6,7 @@ import "app/home/home-page.css"
 
 const HomePage = () => {
   return (
-    <section className="home">
+    <section className="home section">
       <div className="home__container bd-grid">
         <Profile />
       </div>
