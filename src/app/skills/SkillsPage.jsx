@@ -7,7 +7,7 @@ import "app/skills/skills-page.css"
 
 const SkillsPage = () => {
   return (
-    <div id="skills" className="skills section">
+    <section id="skills" className="skills section">
       <div className="skills__container bd-grid">
         <div>
           <span className="section-subtitle">Why Chose Me?</span>
@@ -17,7 +17,7 @@ const SkillsPage = () => {
         <FrontendSkills />
         <BackendSkills />
       </div>
-    </div>
+    </section>
   )
 }
 

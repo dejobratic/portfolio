@@ -7,6 +7,7 @@
 .skills__subtitle {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
+  margin-bottom: var(--mb-2);
 }
 
 .skills__data {
@@ -26,8 +27,4 @@
   bottom: -0.75rem;
   height: 0.25rem;
   background-color: var(--first-color);
-}
-
-.skills__html {
-  width: 80%;
 }
