@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 
 import NavMenu from "app/header/NavMenu"
 
@@ -16,7 +16,9 @@ const NavBar = () => {
       </div>
 
       <div>
-        <Link to="/">Dejan</Link>
+        <Link to="home" spy>
+          Dejan
+        </Link>
       </div>
 
       <NavMenu />

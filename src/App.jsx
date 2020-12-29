@@ -10,13 +10,13 @@ import Footer from "app/footer/Footer"
 const App = () => {
   return (
     <>
-      <AppProvider>
-        <BrowserRouter>
+      <BrowserRouter>
+        <AppProvider>
           <Header />
           <Main />
           <Footer />
-        </BrowserRouter>
-      </AppProvider>
+        </AppProvider>
+      </BrowserRouter>
     </>
   )
 }

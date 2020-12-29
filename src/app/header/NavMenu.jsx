@@ -18,12 +18,12 @@ const NavMenu = () => {
       </div>
 
       <ul className="nav__list">
-        <NavMenuItem to="/" title="Home" active />
-        <NavMenuItem to="#about" title="About" />
-        <NavMenuItem to="#skills" title="Skills" />
-        <NavMenuItem to="#services" title="Services" />
-        <NavMenuItem to="#works" title="Works" />
-        <NavMenuItem to="#contact" title="Contact Me" />
+        <NavMenuItem to="home" title="Home" />
+        <NavMenuItem to="about" title="About" />
+        <NavMenuItem to="skills" title="Skills" />
+        <NavMenuItem to="services" title="Services" />
+        <NavMenuItem to="works" title="Works" />
+        <NavMenuItem to="contact" title="Contact Me" />
       </ul>
     </div>
   )
