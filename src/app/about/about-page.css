@@ -18,10 +18,6 @@
   margin: 0 auto;
 }
 
-.about__img img {
-  max-width: 100%;
-}
-
 .about__information {
   margin-bottom: var(--mb-4);
 }

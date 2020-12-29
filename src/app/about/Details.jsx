@@ -9,12 +9,12 @@ const Details = () => {
         learner and a strong engineering professional with a Master's degree in
         Mechatronics from University of Montenegro.
       </p>
-      <div className="about__img">
-        <img
-          src="https://images.unsplash.com/photo-1609172772948-68c8d8173a9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-          alt=""
-        />
-      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1609172772948-68c8d8173a9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        alt=""
+        className="about__img"
+      />
     </div>
   )
 }
