@@ -49,3 +49,25 @@
 .about__information-subtitle-small {
   font-size: small;
 }
+
+@media screen and (min-width: 768px) {
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__data {
+    text-align: initial;
+  }
+
+  .about__description {
+    margin-bottom: var(--mb-5);
+  }
+
+  .about__img {
+    width: 220px;
+  }
+
+  .about__information {
+    padding-left: 4rem;
+  }
+}

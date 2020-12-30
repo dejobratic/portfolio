@@ -127,16 +127,6 @@ img {
   margin-right: var(--mb-2);
 }
 
-.l-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color: var(--first-color-lighten);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 /*==== BUTTONS  ====*/
 .button {
   display: inline-block;
@@ -159,4 +149,11 @@ img {
 
 .button__light:hover {
   color: var(--first-color-lighten);
+}
+
+/*==== MEDIA QUERIES ====*/
+@media screen and (min-width: 768px ){
+  .home__button {
+    width: initial;
+  }
 }

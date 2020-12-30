@@ -9,9 +9,8 @@ import "app/views/skills/skills-view.css"
 const SkillsView = () => {
   return (
     <section id="skills" className="skills section">
+      <SectionHeader title="My Expertise" subtitle="Why Chose Me?" />
       <div className="skills__container bd-grid">
-        <SectionHeader title="My Expertise" subtitle="Why Chose Me?" />
-
         <FrontendSkills />
         <BackendSkills />
       </div>

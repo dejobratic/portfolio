@@ -49,3 +49,9 @@
 .services__content:hover .services__description {
   color: var(--first-color-lighten);
 }
+
+@media screen and (min-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -30,3 +30,30 @@
 .new-project__button {
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .new-project {
+    background: none;
+  }
+
+  .new-project__container {
+    background-color: var(--first-color);
+    grid-template-columns: 2fr 1.2fr;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+  }
+
+  .new-project__data {
+    padding: 3rem;
+  }
+
+  .new-project__title,
+  .new-project__data {
+    text-align: initial;
+  }
+
+  .new-project__img {
+    width: 230px;
+    align-self: flex-end;
+  }
+}

@@ -8,9 +8,8 @@ import "app/views/services/services-view.css"
 const ServicesView = () => {
   return (
     <section className="services section" id="services">
+      <SectionHeader title="My Services" subtitle="What I Offer" />
       <div className="services__container bd-grid">
-        <SectionHeader title="My Services" subtitle="What I Offer" />
-
         <Service
           type="code"
           title="Web Design"

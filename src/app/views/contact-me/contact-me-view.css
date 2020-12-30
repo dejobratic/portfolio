@@ -43,3 +43,19 @@
   display: block;
   padding-left: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+  .contact__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__form {
+    max-width: 450px;
+  }
+
+  .contact__inputs {
+    display: grid;
+    column-gap: 1.5rem;
+  }
+}

@@ -43,3 +43,15 @@
 .footer__copy i {
   height: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background: none;
+  }
+
+  .footer__container {
+    background-color: var(--first-color-darken);
+    padding: 3rem 0;
+    border-radius: 0.5rem;
+  }
+}

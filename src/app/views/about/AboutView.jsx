@@ -10,9 +10,8 @@ import "app/views/about/about-view.css"
 const AboutView = () => {
   return (
     <section id="about" className="about section">
+      <SectionHeader title="About Me" subtitle="Intro" />
       <div className="about__container bd-grid">
-        <SectionHeader title="About Me" subtitle="Intro" />
-
         <Details />
 
         <div>
