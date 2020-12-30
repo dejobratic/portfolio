@@ -1,6 +1,6 @@
 import React from "react"
 
-import SocialNetworkLink from "app/home/SocialNetworkLink"
+import SocialNetworkLink from "app/views/home/SocialNetworkLink"
 
 const SocialNetwork = () => {
   return (

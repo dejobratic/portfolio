@@ -1,12 +1,12 @@
 import React from "react"
 
 import SectionHeader from "app/components/section-header/SectionHeader"
-import FrontendSkills from "app/skills/FrontendSkills"
-import BackendSkills from "app/skills/BackendSkills"
+import FrontendSkills from "app/views/skills/FrontendSkills"
+import BackendSkills from "app/views/skills/BackendSkills"
 
-import "app/skills/skills-page.css"
+import "app/views/skills/skills-view.css"
 
-const SkillsPage = () => {
+const SkillsView = () => {
   return (
     <section id="skills" className="skills section">
       <div className="skills__container bd-grid">
@@ -19,4 +19,4 @@ const SkillsPage = () => {
   )
 }
 
-export default SkillsPage
+export default SkillsView

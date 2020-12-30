@@ -1,7 +1,7 @@
 import React from "react"
 
-import SkillsContainer from "app/skills/SkillsContainer"
-import SkillsItem from "app/skills/SkillsItem"
+import SkillsContainer from "app/views/skills/SkillsContainer"
+import SkillsItem from "app/views/skills/SkillsItem"
 
 const FrontendSkills = () => {
   return (

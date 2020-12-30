@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import SocialNetwork from "app/home/SocialNetwork"
+import SocialNetwork from "app/views/home/SocialNetwork"
 
 const ProfileImage = () => (
   <div className="home__img">

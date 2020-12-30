@@ -1,7 +1,7 @@
 import React from "react"
 
-import InfoContainer from "app/about/InfoContainer"
-import InfoItem from "app/about/InfoItem"
+import InfoContainer from "app/views/about/InfoContainer"
+import InfoItem from "app/views/about/InfoItem"
 
 const Experience = () => {
   return (

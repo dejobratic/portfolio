@@ -1,19 +1,19 @@
 import React from "react"
 
-import HomePage from "app/home/HomePage"
-import AboutPage from "app/about/AboutPage"
-import SkillsPage from "app/skills/SkillsPage"
-import EducationPage from "app/education/EducationPage"
-import ServicesPage from "app/services/ServicesPage"
+import HomeView from "app/views/home/HomeView"
+import AboutView from "app/views/about/AboutView"
+import SkillsView from "app/views/skills/SkillsView"
+import EducationView from "app/views/education/EducationView"
+import ServicesView from "app/views/services/ServicesView"
 
 const Main = () => {
   return (
     <main className="l-main">
-      <HomePage />
-      <AboutPage />
-      <SkillsPage />
-      <EducationPage />
-      <ServicesPage />
+      <HomeView />
+      <AboutView />
+      <SkillsView />
+      <EducationView />
+      <ServicesView />
     </main>
   )
 }

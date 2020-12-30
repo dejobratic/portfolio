@@ -1,13 +1,13 @@
 import React from "react"
 
 import SectionHeader from "app/components/section-header/SectionHeader"
-import Details from "app/about/Details"
-import ContactInfo from "app/about/ContactInfo"
-import Experience from "app/about/Experience"
+import Details from "app/views/about/Details"
+import ContactInfo from "app/views/about/ContactInfo"
+import Experience from "app/views/about/Experience"
 
-import "app/about/about-page.css"
+import "app/views/about/about-view.css"
 
-const AboutPage = () => {
+const AboutView = () => {
   return (
     <section id="about" className="about section">
       <div className="about__container bd-grid">
@@ -24,4 +24,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default AboutView

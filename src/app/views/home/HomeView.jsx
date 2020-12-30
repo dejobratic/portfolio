@@ -1,10 +1,10 @@
 import React from "react"
 
-import Profile from "app/home/Profile"
+import Profile from "app/views/home/Profile"
 
-import "app/home/home-page.css"
+import "app/views/home/home-view.css"
 
-const HomePage = () => {
+const HomeView = () => {
   return (
     <section id="home" className="home section">
       <div className="home__container bd-grid">
@@ -14,4 +14,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default HomeView

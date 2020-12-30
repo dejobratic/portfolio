@@ -1,11 +1,11 @@
 import React from "react"
 
 import SectionHeader from "app/components/section-header/SectionHeader"
-import EducationInfo from "app/education/EducationInfo"
+import EducationInfo from "app/views/education/EducationInfo"
 
-import "app/education/education-page.css"
+import "app/views/education/education-view.css"
 
-const EducationPage = () => {
+const EducationView = () => {
   return (
     <section id="education" className="education section">
       <div className="education__container bd-grid">
@@ -29,4 +29,4 @@ const EducationPage = () => {
   )
 }
 
-export default EducationPage
+export default EducationView

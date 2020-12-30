@@ -1,11 +1,11 @@
 import React from "react"
 
 import SectionHeader from "app/components/section-header/SectionHeader"
-import Service from "app/services/Service"
+import Service from "app/views/services/Service"
 
-import "app/services/services-page.css"
+import "app/views/services/services-view.css"
 
-const ServicesPage = () => {
+const ServicesView = () => {
   return (
     <section className="services section" id="services">
       <div className="services__container bd-grid">
@@ -51,4 +51,4 @@ const ServicesPage = () => {
   )
 }
 
-export default ServicesPage
+export default ServicesView
