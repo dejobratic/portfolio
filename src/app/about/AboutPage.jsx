@@ -1,5 +1,6 @@
 import React from "react"
 
+import SectionHeader from "app/components/section-header/SectionHeader"
 import Details from "app/about/Details"
 import ContactInfo from "app/about/ContactInfo"
 import Experience from "app/about/Experience"
@@ -10,10 +11,7 @@ const AboutPage = () => {
   return (
     <section id="about" className="about section">
       <div className="about__container bd-grid">
-        <div>
-          <span className="section-subtitle">Intro</span>
-          <h2 className="section-title">About Me</h2>
-        </div>
+        <SectionHeader title="About Me" subtitle="Intro" />
 
         <Details />
 

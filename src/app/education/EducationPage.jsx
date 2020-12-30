@@ -1,5 +1,6 @@
 import React from "react"
 
+import SectionHeader from "app/components/section-header/SectionHeader"
 import EducationInfo from "app/education/EducationInfo"
 
 import "app/education/education-page.css"
@@ -8,10 +9,7 @@ const EducationPage = () => {
   return (
     <section id="education" className="education section">
       <div className="education__container bd-grid">
-        <div>
-          <span className="section-subtitle">Qualification</span>
-          <h2 className="section-title">My Education</h2>
-        </div>
+        <SectionHeader title="My Education" subtitle="Qualification" />
 
         <EducationInfo
           period="2013 - 2017"
