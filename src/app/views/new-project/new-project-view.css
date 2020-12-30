@@ -1,0 +1,28 @@
+@import "index.css";
+
+.new-project {
+  background-color: var(--first-color);
+  padding-bottom: 0;
+}
+
+.new-project__container {
+  row-gap: 2rem;
+}
+
+.new-project__data {
+  text-align: center;
+}
+
+.new-project__title,
+.new-project__description {
+  color: var(--first-color-lighten);
+}
+
+.new-project__description {
+  margin-bottom: var(--mb-4);
+}
+
+.new-project__img {
+  width: 220px;
+  justify-self: center;
+}

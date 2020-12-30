@@ -7,7 +7,6 @@ import EducationView from "app/views/education/EducationView"
 import ServicesView from "app/views/services/ServicesView"
 import NewProjectView from "app/views/new-project/NewProjectView"
 import ContactMeView from "app/views/contact-me/ContactMeView"
-
 const Main = () => {
   return (
     <main className="l-main">

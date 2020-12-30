@@ -4,9 +4,9 @@ import "app/views/contact-me/contact-me-view.css"
 
 const ContactMeView = () => {
   return (
-    <div>
-      <h3>Contact me</h3>
-    </div>
+    <section className="contact-me section" id="contact-me">
+      <h3>section</h3>
+    </section>
   )
 }
 
