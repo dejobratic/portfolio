@@ -23,7 +23,7 @@ const NavMenu = () => {
         <NavMenuItem to="skills" title="Skills" />
         <NavMenuItem to="education" title="Education" />
         <NavMenuItem to="services" title="Services" />
-        <NavMenuItem to="new-project" title="New Project" />
+        <NavMenuItem to="projects" title="Projects" />
         <NavMenuItem to="contact" title="Contact Me" />
       </ul>
     </div>
