@@ -18,7 +18,7 @@ const NewProjectView = () => {
             repudiandae facilis accusantium?
           </p>
 
-          <Link to="contact-me" className="button button__light">
+          <Link to="contact" className="button button__light new-project__button">
             Contact Me
           </Link>
         </div>

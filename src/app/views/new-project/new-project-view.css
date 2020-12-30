@@ -26,3 +26,7 @@
   width: 220px;
   justify-self: center;
 }
+
+.new-project__button {
+  cursor: pointer;
+}
