@@ -152,8 +152,24 @@ img {
 }
 
 /*==== MEDIA QUERIES ====*/
-@media screen and (min-width: 768px ){
+@media screen and (min-width: 768px) {
   .home__button {
     width: initial;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+
+  .section {
+    padding: 3rem 0 2rem;
+  }
+
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

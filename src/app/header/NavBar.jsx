@@ -10,7 +10,7 @@ const NavBar = () => {
   const { dispatch } = useContext(AppContext)
 
   return (
-    <nav className="nav bd-right">
+    <nav className="nav bd-grid">
       <div className="nav__toggle" onClick={() => dispatch(showMenu())}>
         <i className="bx bx-menu"></i>
       </div>

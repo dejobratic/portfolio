@@ -69,8 +69,25 @@
   color: var(--text-color);
 }
 
+/*==== MEDIA QUERIES ====*/
 @media screen and (min-width: 768px) {
   .nav__menu {
     width: var(--nav-width);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .l-header {
+    width: 0;
+  }
+
+  .nav__toggle,
+  .nav__logo,
+  .nav__close {
+    display: none;
+  }
+
+  .nav__menu {
+    left: 0;
   }
 }

@@ -17,7 +17,7 @@ const ContactForm = () => {
         cols="0"
         rows="10"
         placeholder="Message"
-        className="contact__input"
+        className="contact__input contact__message"
       ></textarea>
 
       <FormInput
