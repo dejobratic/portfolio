@@ -14,6 +14,7 @@ const NavMenuItem = ({ to, title, active = false }) => {
         className={`nav__link ${active && "active"}`}
         onClick={() => dispatch(hideMenu())}
         spy
+        hashSpy
       >
         {title}
       </Link>

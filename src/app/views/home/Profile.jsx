@@ -15,7 +15,9 @@ const ProfileImage = () => (
 const ProfileDescription = () => (
   <>
     <h1 className="home__name">Dejan Bratić</h1>
-    <span className="home__profession">Software Engineer</span>
+    <span className="home__profession">
+      Software Engineer | .NET | C# | SQL | JavaScript | React
+    </span>
   </>
 )
 

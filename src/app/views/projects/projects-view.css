@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(204, 75, 44, 0.7);
+  background: rgba(44, 75, 204, 0.7);
   border-radius: 0.5rem;
   transition: 0.3s;
 }
@@ -37,6 +37,10 @@
   padding: 0.25rem;
   border-radius: 0.25rem;
   margin-bottom: var(--mb-2);
+}
+
+.projects__link:hover {
+  cursor: pointer;
 }
 
 .projects__title {

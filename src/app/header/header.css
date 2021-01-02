@@ -43,6 +43,10 @@
   margin-bottom: var(--mb-4);
 }
 
+.nav__item:hover {
+  cursor: pointer;
+}
+
 .nav__link {
   font-size: 1rem;
   text-transform: uppercase;
@@ -52,7 +56,7 @@
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: var(--first-color-darken);
 }
 
 .nav__toggle {
@@ -66,7 +70,7 @@
 }
 
 .active {
-  color: var(--text-color);
+  color: var(--first-color-darken);
 }
 
 /*==== MEDIA QUERIES ====*/
