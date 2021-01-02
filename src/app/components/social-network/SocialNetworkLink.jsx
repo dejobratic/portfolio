@@ -2,7 +2,7 @@ import React from "react"
 
 const SocialNetworkLink = ({ type, to }) => {
   return (
-    <a href={to} className="footer__social-link">
+    <a href={to} className="social-network-link">
       <i className={`bx bxl-${type}`}></i>
     </a>
   )

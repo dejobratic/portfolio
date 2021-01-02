@@ -1,9 +1,9 @@
 import React from "react"
 
-import "app/views/projects/projects-view.css"
 import SectionHeader from "app/components/section-header/SectionHeader"
-import { Link } from "react-router-dom"
-import Project from "./Project"
+import Project from "app/views/projects/Project"
+
+import "app/views/projects/projects-view.css"
 
 const ProjectsView = () => {
   return (
@@ -11,7 +11,8 @@ const ProjectsView = () => {
       <SectionHeader title="Recent Works" subtitle="My Portfolio" />
       <div className="projects__container bd-grid">
         <Project
-          title="CRWN"
+          title="CRWN-Clothing"
+          demoUrl="https://crwn-clothing-09.herokuapp.com/"
           imageUrl="https://png.pngtree.com/png-vector/20190409/ourmid/pngtree-engagement-rate-isometric-illustration-concept-isometric-flat-design-concept-of-png-image_922166.jpg"
         />
       </div>

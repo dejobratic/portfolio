@@ -15,26 +15,6 @@
   margin-bottom: var(--mb-2);
 }
 
-.footer__social {
-  margin-bottom: 3rem;
-}
-
-.footer__social-link {
-  display: inline-flex;
-  background-color: var(--first-color);
-  color: var(--first-color-lighten);
-  font-size: 1.1rem;
-  border-radius: 50%;
-  padding: 0.4rem;
-  margin: 0 var(--mb-1);
-  transition: 0.3s;
-}
-
-.footer__social-link:hover {
-  background-color: var(--first-color-lighten);
-  color: var(--first-color);
-}
-
 .footer__copy {
   font-size: var(--small-font-size);
   color: var(--text-color);
@@ -42,6 +22,10 @@
 
 .footer__copy i {
   height: 100%;
+}
+
+.footer__container .social-network-link:hover {
+  border: 1px var(--first-color-lighten) solid;
 }
 
 @media screen and (min-width: 768px) {

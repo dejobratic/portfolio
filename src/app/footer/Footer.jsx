@@ -1,6 +1,6 @@
 import React from "react"
 
-import SocialNetwork from "app/footer/SocialNetwork"
+import SocialNetwork from "app/components/social-network/SocialNetwork"
 
 import "app/footer/footer.css"
 
